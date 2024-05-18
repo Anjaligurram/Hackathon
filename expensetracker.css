@@ -1,0 +1,130 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    margin: 20px;
+    background-color: #CAF4FF;
+}
+
+h1 {
+    color: #5AB2FF;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.container {
+    background-color: whitesmoke;
+    padding: 20px;
+    max-width: 800px;
+    margin: 0 auto;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    margin-bottom: 20px;
+}
+
+input[type="text"], input[type="number"], input[type="date"] {
+    padding: 10px;
+    border: 1px solid #A0DEFF;
+    border-radius: 4px;
+    outline: none;
+    font-size: 16px;
+    background-color: #CAF4FF;
+}
+
+input[type="text"]::placeholder, 
+input[type="number"]::placeholder, 
+input[type="date"]::placeholder {
+    color: #999;
+}
+
+button {
+    padding: 10px 20px;
+    background-color: #5AB2FF;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+button:hover {
+    background-color: #3399FF;
+}
+
+.tableinput {
+    border: 1px solid #A0DEFF;
+    border-radius: 8px;
+    overflow: hidden;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    background-color: whitesmoke;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+thead th {
+    background-color: #A0DEFF;
+    padding: 10px;
+    text-align: left;
+    font-weight: bold;
+}
+
+tbody td {
+    padding: 10px;
+    border-top: 1px solid #A0DEFF;
+}
+
+.delete-btn, .edit-btn {
+    color: #dc3545;
+    cursor: pointer;
+}
+
+.edit-btn {
+    color: #5AB2FF;
+}
+
+.total {
+    padding: 10px;
+    text-align: right;
+    background-color: #A0DEFF;
+    font-weight: bold;
+}
+
+.summary {
+    margin-top: 20px;
+    background-color: whitesmoke;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.summary h2 {
+    margin-bottom: 10px;
+    color: #333;
+}
+
+.summary ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.summary li {
+    padding: 5px 0;
+    color: #555;
+}
+
+.summary li span {
+    font-weight: bold;
+    color: #5AB2FF;
+}
